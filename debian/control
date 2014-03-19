@@ -1,0 +1,15 @@
+Source: streamplayer
+Section: unknown
+Priority: extra
+Maintainer: drayanaindra <me@drayanaindra.com>
+Build-Depends: ignsdk-debian, debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/streamplayer.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/streamplayer.git;a=summary
+
+Package: streamplayer
+Architecture: all
+Depends: ignsdk-debian, ${shlibs:Depends}, ${misc:Depends}
+Description: Another IGN SDK Application
+ This is an IGN SDK Application
